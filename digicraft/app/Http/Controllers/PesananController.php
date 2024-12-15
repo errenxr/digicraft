@@ -36,7 +36,8 @@ class PesananController extends Controller
     }
 
     public function riwayatPesananCustomer(){
-        $order_headers = OrderHeader::all();
+        $id_customer = Auth::id();
+        $order_headers = OrderHeader::where('id_customer', $id_customer)->get();
         return view('riwayatpesanancust', compact('order_headers'));
     }
 
