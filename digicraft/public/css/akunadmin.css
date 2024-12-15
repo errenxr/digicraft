@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Gidugu&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 50px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-container div {
+  display: flex;
+  align-items: center;
+}
+
+.header-container img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-family: 'Gidugu', sans-serif;
+  font-size: 48px;
+  background: linear-gradient(to right, #0d676d, #25b3a5);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: 'Gilda Display', serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #2C3E50;
+  margin-right: 30px;
+  transition: color 0.3s ease;
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+  nav a:hover {
+    color: #00A896;
+  }
+
+  .search-icon img {
+    height: 30px;
+    cursor: pointer;
+  }
+
+  .content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 40px;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+  }
+
+  h2 {
+    color: #004445;
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+
+  .input-group {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .input-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+  }
+
+  .input-group input {
+    width: 48%;
+    padding: 10px;
+    border: 2px solid #00A896;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    font-size: 14px;
+  }
+
+  .single-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .single-input input {
+    width: 50%;
+    padding: 10px;
+    border: 2px solid #00A896;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+  }
+
+  .logout-btn {
+    align-self: flex-start;
+    background-color: #00A896;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  .logout-btn:hover {
+    background-color: #004445;
+  }

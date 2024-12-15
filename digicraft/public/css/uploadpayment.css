@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gidugu&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+}
+
+header img {
+    max-height: 70px;
+}
+
+header .logo-text {
+    font-family: 'Gidugu', sans-serif;
+    font-size: 36px;
+    background: linear-gradient(to right, #0d676d, #25b3a5);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 10px;
+}
+
+header nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+header nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.bukti-pembayaran-container {
+    font-family: Arial, sans-serif;
+    color: #1B3B34;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.judul {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.bukti-pembayaran-box {
+    border: 2px solid #D4E9E2;
+    border-radius: 4px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.input-wrapper {
+    background: linear-gradient(to right, #1B3B34, #27B796);
+    padding: 10px 15px;
+    border-radius: 4px;
+    flex: 1;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.input-label {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.btn-konfirmasi {
+    background: linear-gradient(to right, #27B796, #1B3B34);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-konfirmasi:hover {
+    background: linear-gradient(to right, #1B3B34, #27B796);
+}

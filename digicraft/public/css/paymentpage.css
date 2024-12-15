@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gidugu&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+}
+
+header img {
+    max-height: 70px;
+}
+
+header .logo-text {
+    font-family: 'Gidugu', sans-serif;
+    font-size: 36px;
+    background: linear-gradient(to right, #0d676d, #25b3a5);
+    -webkit-text-fill-color: transparent;
+    margin-left: 10px;
+}
+
+header nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+header nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.payment-title {
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 26px;
+    font-family: 'Gilda Display', serif;
+    font-weight: bold;
+    background: linear-gradient(to right, #444444, #36c2b8);
+    -webkit-text-fill-color: transparent;
+}
+
+.payment-methods {
+    margin: 40px 0;
+    padding: 30px;
+    background: linear-gradient(to right, #0d676d, #25b3a5);
+    border-radius: 10px;
+}
+
+.qr-code-container {
+    text-align: center;
+    margin: 30px 0;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.qr-code-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.payment-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 30px;
+    border: 2px solid #25b3a5;
+    border-radius: 10px;
+    font-family: 'Gilda Display', serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    background-color: #ffffff;
+}
+
+.payment-section .info {
+    display: flex;
+    align-items: center;
+}
+
+.payment-section .info span {
+    font-weight: bold;
+    margin-left: 5px;
+    color: #25b3a5;
+}
+
+.info-icon {
+    margin-left: 10px;
+    color: #25b3a5;
+    cursor: pointer;
+}
+
+.info-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.info-icon:hover+.tooltip {
+    display: block;
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    color: #333;
+    z-index: 10;
+}
+
+.pay-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #0d676d, #25b3a5);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.pay-button:hover {
+    background: linear-gradient(to right, #084d4e, #1e9185);
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    
+}
+
+.checkbox input {
+    margin-right: 10px;
+}

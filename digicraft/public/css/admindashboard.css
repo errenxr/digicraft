@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo-text {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #00695c;
+    font-family: 'Gidugu', sans-serif;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    gap: 3rem;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #00695c;
+  }
+  
+  .search-icon {
+    width: 20px;
+    height: 20px;
+  }  
+  
+  .main-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #4db6ac;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .icon-container {
+    background-color: #ffffff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .plus-icon,
+  .box-icon {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+  }
+  
+  .arrow-button {
+    background-color: #333;
+    color: #ffffff;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .arrow-button:hover {
+    background-color: #212121;
+  }
+  
+  @media (max-width: 768px) {
+    .main-container {
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+  
+    .card {
+      width: 90%;
+      height: auto;
+    }
+  }  
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    width: 40px;
+    height: 40px;
+    margin-right: 1px;
+  }
+  
+  .logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00695c;
+  }

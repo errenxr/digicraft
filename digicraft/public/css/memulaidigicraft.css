@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Gidugu&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 70px;
+    margin-right: 15px;
+}
+
+header .logo span {
+    font-family: 'Gidugu', sans-serif;
+    font-size: 48px;
+    background: linear-gradient(to right, #0d676d, #25b3a5);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 10px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-family: 'Gilda Display', serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #2C3E50;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #42B29C;
+}
+
+header .custom-logo {
+    height: 50px;
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c7a7b;
+}
+
+.nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.main {
+    text-align: center;
+    margin: 40px 20px;
+}
+
+.main h1 {
+    font-size: 24px;
+    color: #2c7a7b;
+    font-family: 'Gilda Display', serif;
+}
+
+.main p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+}
+
+.info-box {
+    margin: 20px auto;
+    padding: 25px;
+    max-width: 600px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info-box p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.info-box p:first-child {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.info-box p:first-child::after {
+    content: "";
+    display: block;
+    width: 80%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px auto;
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+.btn-back,
+.btn-order {
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.btn-back {
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    color: #000;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.btn-back:hover {
+    background-color: #e0e0e0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn-order {
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(to right, #42B29C, #1C4C43);
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.btn-order:hover {
+    background: linear-gradient(to right, #1C4C43, #42B29C);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}

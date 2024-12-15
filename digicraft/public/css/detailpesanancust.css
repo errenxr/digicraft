@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #ffffff;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.header h1 {
+    font-size: 2rem;
+    color: #00a8a0;
+}
+
+.service-title {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #00a8a0;
+    margin: 20px 0;
+}
+
+.service-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.service-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #00796b;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .btn {
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .btn-back {
+    background: linear-gradient(to right, #2C3E50, #42B29C);
+    color: #fff;
+  }
+  
+  .btn-submit {
+    background: linear-gradient(to right, #42B29C, #2C3E50);
+    color: #fff;
+  }
